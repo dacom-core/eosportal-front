@@ -72,7 +72,7 @@
         }
 
         async bindNetwork(chainData:any|null = null){
-            this.setChainData({ chainId: "aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906"});
+            this.setChainData({ chainId: "0443d062bb782b32bdc07a65273e1696c9a28749c047124927c7160897cacd28"});
 
             const protocol = location.protocol.substring(0, location.protocol.length - 1);
 
@@ -101,7 +101,7 @@
 //            }
 //
 //            this.setNetwork(network);
-            this.setNetwork('https://api1.eosdublin.io');
+            this.setNetwork('https://api.travelchain.io');
         }
 
         async recurseProducers(){

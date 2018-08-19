@@ -1,3 +1,3 @@
 export default {
-  domain: "api.eostracker.io" // TODO: move to env var
+  domain: "api.travelchain.io" // TODO: move to env var
 };

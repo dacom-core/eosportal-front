@@ -72,7 +72,7 @@ export const getChainState = () => {
     .catch(() => null);
 };
 
-export const getSystemTokenStats = (token: string = "EOS") => {
+export const getSystemTokenStats = (token: string = "TT") => {
   return getEos().getCurrencyStats("eosio.token", token);
 };
 
@@ -114,7 +114,7 @@ export const voteFor = async (
 
 export const stakableTokenBalance = async (
   accountName: string,
-  token: string = "EOS"
+  token: string = "TT"
 ) => {
   const balances = await getBalances(accountName);
   return (
@@ -124,7 +124,7 @@ export const stakableTokenBalance = async (
 
 export const delegateAll = async (
   accountName: string,
-  token: string = "EOS"
+  token: string = "TT"
 ) => {
   const stakable = await stakableTokenBalance(accountName, token);
   const decimals = stakable.replace(` ${token}`, "").split(".")[1].length;
