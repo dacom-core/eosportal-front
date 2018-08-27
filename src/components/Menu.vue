@@ -8,7 +8,7 @@
 
             <!-- LOGO -->
             <router-link tag="figure" :to="{ name:'chains' }" class="logo">
-                <span><b>Travel</b>Chain</span>
+                <span><b>Producers</b> TravelChain</span>
             </router-link>
 
             <!-- LINKS -->

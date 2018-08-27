@@ -7,7 +7,7 @@
 			</p>
 			<br>
 			<p>
-				Actual EOS Votes: <b>{{numberWithCommas((chainState.total_activated_stake/10000).toFixed(0))}}</b> EOS (<b>{{(chainState.total_activated_stake/10000/1000011818*100).toFixed(3)}} %</b>)
+				Actual TT Votes: <b>{{numberWithCommas((chainState.total_activated_stake/10000).toFixed(0))}}</b> TT (<b>{{(chainState.total_activated_stake/10000/1000011818*100).toFixed(3)}} %</b>)
 			</p>
 
 			<div class="message message-danger message-large">
@@ -73,16 +73,6 @@
 			</h2>
 		</section>
 
-		<section class="floater" :class="{'show':floatMenu}">
-			<section class="box">
-				<figure class="num">{{votedFor.length}}</figure>
-				<figure class="label">{{ $t('lang.bps') }}</figure>
-			</section>
-			<section class="box">
-				<figure class="num">{{countryCount()}}</figure>
-				<figure class="label">{{ $t('lang.countries') }}</figure>
-			</section>
-		</section>
     </div>
 </template>
 

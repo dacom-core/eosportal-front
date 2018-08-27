@@ -33,7 +33,7 @@
         <section class="contain">
             <h1 id="the-basics">The Basics</h1>
             <p>
-                These are things every voter and holder of EOSIO system tokens ( EOS ) should know.
+                These are things every voter and holder of EOSIO system tokens ( TT ) should know.
             </p>
 
             <section class="contain">
@@ -55,12 +55,12 @@
                 <h1 id="what-to-know">What should I know before voting?</h1>
                 <section class="contain">
                     <b>Your tokens will be "staked" for at least three days.</b><br><br>
-                    To vote means staking your EOS tokens. Staking is the word used to describe locking-up your tokens for a specific purpose on the EOS network.
+                    To vote means staking your TT tokens. Staking is the word used to describe locking-up your tokens for a specific purpose on the EOS network.
                     You will not be able to reclaim your tokens for at least three days from the moment you stake them.
                 </section>
                 <section class="contain">
                     <b>1 Token = up to 30 Votes</b><br><br>
-                    You can vote for up to 30 block producers with each token that you own. If you own 10 EOS, then you can vote for 30 block producers 10 times each.
+                    You can vote for up to 30 block producers with each token that you own. If you own 10 TT, then you can vote for 30 block producers 10 times each.
                     You cannot vote for a block producer more than once with each token. Why 30 votes?
                     <a href="https://medium.com/@thomas.cox_39839/why-30-stake-weighted-approval-votes-for-eosio-1402b994bf20" target="_blank"><u>Read one explanation here</u></a>
                 </section>

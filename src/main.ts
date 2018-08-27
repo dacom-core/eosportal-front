@@ -6,6 +6,7 @@ import './registerServiceWorker'
 import './filters'
 import i18n from './locales/index'
 import Toasted from 'vue-toasted';
+import ScatterJS from 'scatter-js/dist/scatter.cjs.js';
 
 Vue.config.productionTip = false;
 
@@ -27,10 +28,11 @@ new Vue({
 
 Vue.use(Toasted)
 
-document.addEventListener('scatterLoaded', () => {
+  ScatterJS.scatter.connect("ProducersTC").then(connected => {
+        if(connected){
+            store.dispatch('setScatter', ScatterJS.scatter);
+		    window.scatter = null;
+        }
+    });
 
-  window.scatter.requireVersion(4.0);
-  store.dispatch('setScatter', window.scatter);
-  window.scatter = null;
-
-});
+  
